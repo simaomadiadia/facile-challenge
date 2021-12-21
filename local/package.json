@@ -1,0 +1,22 @@
+{
+  "name": "Teste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  }
+}
